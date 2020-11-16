@@ -5,15 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:src"
         mc:Ignorable="d"
-        Title="Quran.com" Height="610" Width="810" 
+        Title="Quran.com" Height="500" Width="250" 
         WindowStartupLocation="Manual" 
         WindowState="Minimized" 
         Cursor="" Icon="assets/icon.png" 
-        ResizeMode="CanResizeWithGrip"
-        MinHeight="610" MinWidth="810" MaxHeight="610" MaxWidth="810" FontFamily="Poppins ExtraLight">
-    <Grid Background="#00ACC1">
-        <Image HorizontalAlignment="Center" Height="126" Margin="293,85,290,363" VerticalAlignment="Center" Width="219" Source="assets/quran.png"/>
-        <ScrollViewer  HorizontalAlignment="Left" Background="#00ACC1" Height="306" Margin="286,268,0,0" VerticalAlignment="Top" Width="230" VerticalScrollBarVisibility="Auto">
+        ResizeMode="NoResize">
+    <Grid Background="#00ACC1" HorizontalAlignment="Left" Width="250" >
+        <Image HorizontalAlignment="Center" Height="82" Margin="49,24,61,360" VerticalAlignment="Center" Width="140" Source="assets/quran.png"/>
+        <ScrollViewer  HorizontalAlignment="Center" Background="#00ACC1" Height="300"  VerticalAlignment="Bottom" Width="221" VerticalScrollBarVisibility="Auto" Margin="10,0,19,0">
             <StackPanel x:Name="stackPanelVistaProfiloTessera"  Background="#00ACC1">
                 <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="220" Height="72" Background="Transparent">
                     <Image Source="assets/1.png"  />
@@ -32,6 +31,7 @@
                 </Button>
             </StackPanel>
         </ScrollViewer>
-        <TextBlock HorizontalAlignment="Left" Margin="311,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Poppins ExtraBold" Foreground="#FF1D1F21" FontSize="20" Height="29"><Run Text="The Noble Quran"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="30,106,48,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" FontFamily="Poppins ExtraBold" Foreground="#FF1D1F21" FontSize="20" Height="29"><Run Text="The Noble Quran"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="106,133,126,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" FontFamily="Poppins ExtraBold" Foreground="#FF1D1F21" FontSize="10" Height="29"><Run Text="v1.0"/><LineBreak/><Run/></TextBlock>
     </Grid>
 </Window>
