@@ -1,0 +1,22 @@
+﻿<Window x:Class="src.PagesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:src"
+        mc:Ignorable="d"
+        Title="Quran.com" Height="500" Width="250" 
+        WindowStartupLocation="Manual" 
+        WindowState="Minimized" 
+        Cursor="" Icon="assets/icon.png" 
+        ResizeMode="NoResize">
+    <Grid Background="#00ACC1" HorizontalAlignment="Center" Width="250" >
+        <Image Name="PageImage" Source="pages/page001.png"/>
+        <Button Click="BackwardBtn" BorderThickness="0"  VerticalAlignment="Center"  Background="Transparent" Margin="10,426,210,10" Height="30">
+            <Image Source="assets/backward.png" Height="20" Width="25"  />
+        </Button>
+        <Button Click="ForwardBtn" BorderThickness="0" VerticalAlignment="Center" Background="Transparent" Margin="210,426,10,10" Height="30">
+            <Image  Source="assets/forward.png" Height="20" Width="25" />
+        </Button>
+    </Grid>
+</Window>
