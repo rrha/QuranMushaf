@@ -11,7 +11,7 @@
         Cursor="" Icon="assets/icon.png" 
         ResizeMode="CanResizeWithGrip"
         MinHeight="610" MinWidth="810" FontFamily="Poppins ExtraLight">
-    <Grid Background="#1D1F21">
+    <Grid Background="#00ACC1">
         <Image HorizontalAlignment="Center" Height="139" Margin="280,103,280,332" VerticalAlignment="Center" Width="242" Source="assets/quran.png"/>
     </Grid>
 </Window>
