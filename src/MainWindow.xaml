@@ -12,22 +12,26 @@
         ResizeMode="CanResizeWithGrip"
         MinHeight="610" MinWidth="810" MaxHeight="610" MaxWidth="810" FontFamily="Poppins ExtraLight">
     <Grid Background="#00ACC1">
-        <Image HorizontalAlignment="Center" Height="126" Margin="293,101,290,347" VerticalAlignment="Center" Width="219" Source="assets/quran.png"/>
-        <ScrollViewer HorizontalAlignment="Left" Background="Green" Height="306" Margin="0,268,0,0" VerticalAlignment="Top" Width="802" VerticalScrollBarVisibility="Auto">
-            <StackPanel x:Name="stackPanelVistaProfiloTessera"  Background="#00ACC1" >
-                <Button Width="220" Height="89">
-                    <Image Source="http://cdn.qurancdn.com/assets/logo-lg-w-10a76950b6fdf68f9bf6abdde65eec2553f6f6d97837b65d8836d1a0c39a01c9.png" Height="36" Width="124" />
+        <Image HorizontalAlignment="Center" Height="126" Margin="293,85,290,363" VerticalAlignment="Center" Width="219" Source="assets/quran.png"/>
+        <ScrollViewer  HorizontalAlignment="Left" Background="#00ACC1" Height="306" Margin="286,268,0,0" VerticalAlignment="Top" Width="230" VerticalScrollBarVisibility="Auto">
+            <StackPanel x:Name="stackPanelVistaProfiloTessera"  Background="#00ACC1">
+                <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="220" Height="72" Background="Transparent">
+                    <Image Source="assets/1.png"  />
                 </Button>
-                <Button Width="220" Height="89">
-                    <Image Source="http://cdn.qurancdn.com/assets/logo-lg-w-10a76950b6fdf68f9bf6abdde65eec2553f6f6d97837b65d8836d1a0c39a01c9.png" Height="36" Width="124" />
+                <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="220" Height="72" Background="Transparent">
+                    <Image Source="assets/2.png"  />
                 </Button>
-                <Button Width="220" Height="89">
-                    <Image Source="http://cdn.qurancdn.com/assets/logo-lg-w-10a76950b6fdf68f9bf6abdde65eec2553f6f6d97837b65d8836d1a0c39a01c9.png" Height="36" Width="124" />
+                <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="220" Height="72" Background="Transparent">
+                    <Image Source="assets/3.png"  />
                 </Button>
-                <Button Width="220" Height="89">
-                    <Image Source="http://cdn.qurancdn.com/assets/logo-lg-w-10a76950b6fdf68f9bf6abdde65eec2553f6f6d97837b65d8836d1a0c39a01c9.png" Height="36" Width="124" />
+                <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="220" Height="72" Background="Transparent">
+                    <Image Source="assets/4.png"  />
+                </Button>
+                <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="220" Height="72" Background="Transparent">
+                    <Image Source="assets/5.png"  />
                 </Button>
             </StackPanel>
         </ScrollViewer>
+        <TextBlock HorizontalAlignment="Left" Margin="311,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Poppins ExtraBold" Foreground="#FF1D1F21" FontSize="20" Height="29"><Run Text="The Noble Quran"/><LineBreak/><Run/></TextBlock>
     </Grid>
 </Window>
