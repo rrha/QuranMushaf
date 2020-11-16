@@ -23,6 +23,8 @@ namespace src
         public MainWindow()
         {
             InitializeComponent();
+            PagesWindow ayat = new PagesWindow();
+            ayat.Show();
         }
     }
 }

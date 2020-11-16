@@ -10,25 +10,14 @@
         WindowState="Minimized" 
         Cursor="" Icon="assets/icon.png" 
         ResizeMode="NoResize">
-    <Grid Background="#00ACC1" HorizontalAlignment="Left" Width="250" >
+    <Grid Background="#00ACC1" HorizontalAlignment="Center" Width="250" >
         <Image HorizontalAlignment="Center" Height="82" Margin="49,24,61,360" VerticalAlignment="Center" Width="140" Source="assets/quran.png"/>
-        <ScrollViewer  HorizontalAlignment="Center" Background="#00ACC1" Height="300"  VerticalAlignment="Bottom" Width="221" VerticalScrollBarVisibility="Auto" Margin="10,0,19,0">
+        <ScrollViewer  HorizontalAlignment="Center" Background="#00ACC1" Height="300"  VerticalAlignment="Bottom" Width="221" VerticalScrollBarVisibility="Auto" Margin="19,0,10,0">
             <StackPanel x:Name="stackPanelVistaProfiloTessera"  Background="#00ACC1">
-                <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="220" Height="72" Background="Transparent">
-                    <Image Source="assets/1.png"  />
+                <Button BorderThickness="0"  Width="200" Height="60" Background="Transparent">
+                    <Image Source="assets/1.png" Width="200" Height="72" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 </Button>
-                <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="220" Height="72" Background="Transparent">
-                    <Image Source="assets/2.png"  />
-                </Button>
-                <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="220" Height="72" Background="Transparent">
-                    <Image Source="assets/3.png"  />
-                </Button>
-                <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="220" Height="72" Background="Transparent">
-                    <Image Source="assets/4.png"  />
-                </Button>
-                <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="220" Height="72" Background="Transparent">
-                    <Image Source="assets/5.png"  />
-                </Button>
+                
             </StackPanel>
         </ScrollViewer>
         <TextBlock HorizontalAlignment="Center" Margin="30,106,48,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" FontFamily="Poppins ExtraBold" Foreground="#FF1D1F21" FontSize="20" Height="29"><Run Text="The Noble Quran"/><LineBreak/><Run/></TextBlock>
