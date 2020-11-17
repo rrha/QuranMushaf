@@ -1,1 +1,1 @@
-# quran-wpf
+# quran-windows
