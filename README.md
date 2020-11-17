@@ -1,1 +1,1 @@
-# quran-windows
+# quran
