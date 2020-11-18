@@ -49,11 +49,11 @@ namespace src
         }
         private void Btn1(object sender, RoutedEventArgs e)
         {
-            PageImage.Source = new BitmapImage(new Uri(@"pages/.png", UriKind.Relative));
+            PageImage.Source = new BitmapImage(new Uri(@"pages/page001.png", UriKind.Relative));
         }
         private void Btn2(object sender, RoutedEventArgs e)
         {
-            PageImage.Source = new BitmapImage(new Uri(@"pages/.png", UriKind.Relative));
+            PageImage.Source = new BitmapImage(new Uri(@"pages/page002.png", UriKind.Relative));
         }
         private void Btn3(object sender, RoutedEventArgs e)
         {
