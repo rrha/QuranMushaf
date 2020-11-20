@@ -1,4 +1,4 @@
-# Quran mushaf
+# Quran Mushaf
 <p align="center">
 <img src="https://cdn.qurancdn.com/assets/icons/android-chrome-256x256-5ce92ae50dbe024515dae5d9b6e5ca249b8f327018630846c35d0c780a41769b.png" width="150" > 
 </p>
