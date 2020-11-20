@@ -12,7 +12,7 @@
 
 # Download  
 
-<a href="" rel="nofollow">Windows</a>
+<a href="https://github.com/era7imOSS/quran-mushaf/releases/download/v1.0.0/Setup.msi" rel="nofollow">Windows</a>
 
 
 
