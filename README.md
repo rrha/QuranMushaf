@@ -14,7 +14,13 @@
 
 <a href="https://github.com/era7imOSS/quran-mushaf/releases/download/v1.0.0/Setup.msi" rel="nofollow">Windows</a>
 
-
+# Contribute  
+<p>
+<strong>We :heart: Contributors Like You!. </strong>      
+</p> 
+<p>
+Create pull request and will review your code.
+</p>
 
 
 
