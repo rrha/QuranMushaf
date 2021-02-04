@@ -5,366 +5,342 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:src"
         mc:Ignorable="d"
-        Title="Quran Mushaf" Height="650" Width="705" 
+        Title="Quran Mushaf" Height="700" Width="800" 
         WindowStartupLocation="Manual" 
-        WindowState="Minimized" 
-        Cursor="" Icon="assets/icon.png" 
-        ResizeMode="NoResize"
-        Background="#00ACC1"
+        Cursor="" Icon="assets/icon.png"
+        Background="#f9f6f1" MinWidth="705" MinHeight="650"
         >
-    <Grid Background="#00ACC1" HorizontalAlignment="Left" Width="500">
-        <Image Name="PageImage"  Source="pages/page001.png" Margin="0,10,0,0"/>
-        <Button Click="BackwardBtn" BorderThickness="0"  VerticalAlignment="Center"  Background="Transparent" Margin="10,248,460,288" Height="30">
-            <Image Source="assets/backward.png" Height="20" Width="25"  />
-        </Button>
-        <Button Click="ForwardBtn" BorderThickness="0" VerticalAlignment="Center" Background="Transparent" Margin="460,248,10,288" Height="30">
-            <Image  Source="assets/forward.png" Height="20" Width="25" />
-        </Button>
-        <ScrollViewer HorizontalAlignment="Right" Background="#00ACC1"  Margin="0,10,-188,10" VerticalAlignment="Center" Width="193" VerticalScrollBarVisibility="Auto" Height="546">
-            <StackPanel Height="6425">
-                <Button Click="Btn1" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/1.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn2" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/2.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn3" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/3.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn4" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/4.png" Height="64" Width="175" />
-                </Button>
-                <Button  Click="Btn5" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/5.png" Height="64" Width="175" />
-                </Button>
-                <Button  Click="Btn6" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/6.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn7" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/7.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn8" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/8.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn9" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/9.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn10" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/10.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn11"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/11.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn12" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/12.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn13"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/13.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn14" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/14.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn15"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/15.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn16"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/16.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn17"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/17.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn18"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/18.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn19"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/19.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn20"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/20.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn21"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/21.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn22"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/22.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn23"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/23.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn24" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/24.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn25"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/25.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn26"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/26.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn27" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/27.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn28" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/28.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn29" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/29.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn30" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/30.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn31" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/31.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn32" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/32.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn33" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/33.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn34" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/34.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn35"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/35.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn36"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/36.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn37"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/37.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn38"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/38.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn39"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/39.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn40"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/40.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn41"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/41.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn42"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/42.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn43"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/43.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn44" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/44.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn45"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/45.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn46"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/46.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn47"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/47.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn48"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/48.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn49"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/49.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn50"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/50.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn51"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/51.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn52"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/52.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn53"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/53.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn54"  BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/54.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn55" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/55.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn56" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/56.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn57" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/57.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn58" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/58.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn59" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/59.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn60" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/60.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn61" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/61.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn62" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/62.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn63" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/63.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn64" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/64.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn65" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/65.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn66" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/66.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn67" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/67.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn68" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/68.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn69" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/69.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn70" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/70.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn71" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/71.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn72" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/72.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn73" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/73.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn74" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/74.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn75" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/75.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn76" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/76.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn77" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/77.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn78" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/78.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn79" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/79.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn80" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/80.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn81" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/81.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn82" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/82.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn83" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/83.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn84" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/84.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn85" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/85.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn86" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/86.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn87" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/87.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn88" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/88.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn89" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/89.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn90" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/90.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn91" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/91.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn92" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/92.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn93" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/93.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn94" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/94.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn95" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/95.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn96" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/96.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn97" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/97.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn98" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/98.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn99" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/99.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn100" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/100.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn101" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/101.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn102" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/102.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn103" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/103.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn104" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/104.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn105" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/105.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn106" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/106.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn107" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/107.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn108" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/108.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn109" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/109.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn110" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/110.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn111" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/111.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn112" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/112.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn113" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/113.png" Height="64" Width="175" />
-                </Button>
-                <Button Click="Btn114" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Height="55">
-                    <Image  Source="assets/114.png" Height="64" Width="175" />
-                </Button>
-            </StackPanel>
+    <Grid Background="#f9f6f1" MinWidth="750" MinHeight="500">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition FrameworkElement.FlowDirection="RightToLeft" />
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Image Name="PageImage"  Source="pages/page001.png" Margin="0" MinWidth="341.3" MinHeight="552" MaxWidth="1024" MaxHeight="1656"/>
+            <Button Click="BackwardBtn" BorderThickness="0" VerticalAlignment="Center" Background="Transparent" Margin="40,248,0,288" Panel.ZIndex="1" MinWidth="25" MinHeight="25" MaxWidth="40" MaxHeight="40" HorizontalAlignment="Left">
+                <Image Source="assets/backward.png" MinWidth="25" MinHeight="25" MaxWidth="40" MaxHeight="40" />
+            </Button>
+            <Button Click="ForwardBtn" BorderThickness="0" VerticalAlignment="Center" Background="Transparent" Margin="0,248,40,288" Panel.ZIndex="1" MinWidth="25" MinHeight="25" MaxWidth="40" MaxHeight="40" HorizontalAlignment="Right">
+                <Image  Source="assets/forward.png" MinWidth="25" MinHeight="25" MaxWidth="40" MaxHeight="40" />
+            </Button>
+        </Grid>
+        <WrapPanel Orientation="Vertical" HorizontalAlignment="Right" Grid.ColumnSpan="2" Margin="0,0,10.4,0">
+            <ScrollViewer HorizontalAlignment="Right" Background="#f9f6f1"  Margin="5,5,10.4,10" VerticalAlignment="Center" VerticalScrollBarVisibility="Auto" MinHeight="546" MinWidth="210" Grid.Column="1">
+                <StackPanel MinWidth="203" FlowDirection="LeftToRight" MinHeight="6424.8">
+                    <Button Click="Btn1" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/1.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn2" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/2.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn3" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/3.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn4" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/4.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn5" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/5.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn6" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/6.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn7" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/7.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn8" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/8.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn9" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/9.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn10" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/10.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn11" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/11.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn12" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/12.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn13" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/13.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn14" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/14.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn15" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/15.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn16" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/16.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn17" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/17.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn18" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/18.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn19" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/19.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn20" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/20.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn21" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/21.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn22" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/22.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn23" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/23.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn24" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/24.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn25" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/25.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn26" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/26.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn27" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/27.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn28" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/28.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn29" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/29.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn30" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/30.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn31" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/31.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn32" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/32.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn33" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/31.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn34" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/34.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn35" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/35.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn36" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/36.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn37" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/37.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn38" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/8.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn39" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/39.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn40" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/40.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn41" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/41.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn42" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/42.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn43" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/43.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn44" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/44.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn45" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/45.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn46" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/46.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn47" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/47.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn48" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/48.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn49" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/49.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn50" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/50.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn51" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/51.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn52" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/52.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn53" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/53.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn54" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/54.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn55" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/55.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn56" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/56.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn57" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/57.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn58" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/58.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn59" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/59.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn60" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/60.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn61" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/61.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn62" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/62.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn63" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/63.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn64" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/64.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn65" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/65.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn66" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/66.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn67" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/67.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn68" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/68.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn69" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/69.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn70" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/70.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn71" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/71.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn72" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/72.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn73" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/73.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn74" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/74.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn75" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/75.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn76" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/76.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn77" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/77.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn78" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/78.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn79" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/79.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn80" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/80.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn81" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/81.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn82" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/82.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn83" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/83.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn84" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/84.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn85" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/85.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn86" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/86.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn87" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/87.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn88" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/88.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn89" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/89.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn90" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/90.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn91" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/91.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn92" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/92.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn93" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/93.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn94" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/94.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn95" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/95.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn96" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/96.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn97" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/97.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn98" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/98.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn99" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/99.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn100" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/100.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>                    
+                    <Button Click="Btn111" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/111.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn112" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/112.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn113" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/113.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                    <Button Click="Btn114" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
+                        <Image  Source="assets/114.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                    </Button>
+                </StackPanel>
         </ScrollViewer>
+        </WrapPanel>
     </Grid>
 </Window>
