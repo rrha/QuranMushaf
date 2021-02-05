@@ -25,7 +25,7 @@
             </Button>
         </Grid>
         <WrapPanel Orientation="Vertical" HorizontalAlignment="Right" Grid.ColumnSpan="2" Margin="0,0,10.4,0">
-            <ScrollViewer HorizontalAlignment="Right" Background="#00ACC1"  Margin="5,5,10.4,10" VerticalAlignment="Center" VerticalScrollBarVisibility="Auto" MinHeight="546" MinWidth="210" Grid.Column="1">
+            <ScrollViewer HorizontalAlignment="Right"  Background="#00ACC1"  Margin="5,5,10.4,10" VerticalAlignment="Center" VerticalScrollBarVisibility="Auto" MinHeight="546" MinWidth="210" Grid.Column="1">
                 <StackPanel MinWidth="203" FlowDirection="LeftToRight" MinHeight="6424.8">
                     <Button Click="Btn1" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
                         <Image  Source="assets/1.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
