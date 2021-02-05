@@ -8,7 +8,7 @@
         Title="Quran Mushaf" Height="700" Width="800" 
         WindowStartupLocation="Manual" 
         Cursor="" Icon="assets/icon.png"
-        Background="#f9f6f1" MinWidth="705" MinHeight="650"
+        Background="#f9f6f1" MinWidth="750" MinHeight="650"
         >
     <Grid Background="#00ACC1" MinWidth="750" MinHeight="500">
         <Grid.ColumnDefinitions>
