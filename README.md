@@ -7,7 +7,7 @@
 <strong>Quran mushaf - Simple quran mushaf for windows.</strong>
 </p>
 <p align="center">
-<img src="https://github.com/era7imOSS/quran-mushaf/blob/main/Preview.png" width="600">  
+<img src="https://github.com/era7imOSS/quran-mushaf/blob/main/Demo.png" width="600">  
 </p> 
 
 # Download  
