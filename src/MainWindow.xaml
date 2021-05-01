@@ -124,7 +124,7 @@
                         <Image  Source="assets/32.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
                     </Button>
                     <Button Click="Btn33" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
-                        <Image  Source="assets/31.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                        <Image  Source="assets/33.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
                     </Button>
                     <Button Click="Btn34" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
                         <Image  Source="assets/34.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
@@ -139,7 +139,7 @@
                         <Image  Source="assets/37.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
                     </Button>
                     <Button Click="Btn38" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
-                        <Image  Source="assets/8.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
+                        <Image  Source="assets/38.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
                     </Button>
                     <Button Click="Btn39" BorderThickness="0"  HorizontalAlignment="Left" Background="Transparent" Width="240" Height="76" MinWidth="176" MinHeight="64">
                         <Image  Source="assets/39.png" Width="240" Height="76" MinWidth="175" MinHeight="64" />
