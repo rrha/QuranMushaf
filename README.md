@@ -12,7 +12,7 @@
 
 # Download  
 
-<a href="#" rel="nofollow">Windows</a>
+<a href="https://github.com/saidrrh/QuranMushaf/releases/tag/1.0.0" rel="nofollow">Windows</a>
 
 # Contribute  
 
